@@ -2,7 +2,7 @@
 
 The Antec TP-II 550 is a powerful power supply that was originally offered in two variants: one with the TrueControl panel and one without. The TrueControl panel was a unique feature that mounted in a 5.25" drive bay and provided manual voltage adjustment through four potentiometers (pots) for the 12V, 5V, 3.3V, and fan voltage rails.
 
-If you have the version without the control panel—or if you've lost the original panel—you may have noticed a significant problem: the power supply defaults to voltages that are barely within ATX specification, with all rails running quite low. This makes the PSU difficult to use reliably without the control panel.
+If you have the Truecontrol 2.0 version without the control panel—or if you've lost the original panel—you may have noticed a significant problem: the power supply defaults to voltages that are barely within ATX specification, with all rails running quite low. This makes the PSU difficult to use reliably without the control panel.
 
 Fortunately, with some community help and reverse engineering, it's possible to build a simple replacement control circuit that restores full functionality to this beast of a power supply. This guide will walk you through creating your own TrueControl replacement using readily available components.
 
