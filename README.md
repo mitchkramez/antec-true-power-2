@@ -97,9 +97,9 @@ For each of the four potentiometers:
 **Step 3: Test and Adjust**
 1. Connect your assembled control circuit to the power supply connector
 2. Use your BIOS readings or a multimeter to check voltages
-3. Adjust each potentiometer until voltages are within proper ATX specifications:
-   - Fan voltage: Adjust to preference (mine is set to about 7V). This adjustment also affects the fan-only Molex connectors.
-   - You can only adjust within ATX spec (±5%). The PSU has UVP and OVP, so even if you go out of range it'll shut off.
+3. Adjust each potentiometer until voltages and fan are set to preference:
+   - Voltages: The 5v, 3.3v, and 12v knobs allows individual adjustment of voltages even while the system is running, without interrupting system functions. With this functionality you can stabilize a heavily loaded system, even when overclocking. (Note: you can only adjust within ATX spec (±5%) (the psu will keep within ±1-3% of set voltages). The PSU has UVP (under voltage protection) and OVP (over voltage protection), so even if you do somehow go out of allowed range it'll shut off. 
+   - Fan: The fan knob allows adjustment of minimum speed of internal PSU fan as well as case fans connected to Fan Only connectors. (Note: this adjusts the fan speed to temp curve, this is why adjusting the knob will appear to not do much when the psu is cool)
 
 **Step 4: Mounting**
 
